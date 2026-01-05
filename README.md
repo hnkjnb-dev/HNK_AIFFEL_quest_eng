@@ -125,4 +125,3 @@ AIFFEL_quest_cr
 │       └── README.md
 │
 └── README.md
-```
