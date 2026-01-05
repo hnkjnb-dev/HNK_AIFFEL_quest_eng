@@ -7,7 +7,7 @@ AIFFEL **엔지니어 과정**에서 진행한 퀘스트와 실습 내용을 체
 
 ## 📁 Repository Structure
 
-AIFFEL_quest_eng
+AIFFEL_quest_cr
 ├── Computer_Vision
 │   ├── CV01
 │   │   ├── CV01.ipynb
@@ -32,17 +32,8 @@ AIFFEL_quest_eng
 │   │   ├── Contents.ipynb
 │   │   └── README.md
 │   └── Final_Code
-│       ├── Final_Code
+│       ├── Final_Code.ipynb
 │       └── README.md
-│
-├── Data_Analysis
-│   ├── DA01
-│   │   ├── DA01.ipynb
-│   │   └── README.md
-│   ├── DA02
-│   │   ├── DA02.ipynb
-│   │   └── README.md
-│   └── README.md
 │
 ├── LLM_Application
 │   ├── LLM01
@@ -59,6 +50,46 @@ AIFFEL_quest_eng
 │   │   └── README.md
 │   └── LLM05
 │       ├── LLM05.ipynb
+│       └── README.md
+│
+├── MLOps
+│   ├── MLOps01
+│   │   ├── MLOps01.ipynb
+│   │   └── README.md
+│   ├── MLOps02
+│   │   ├── MLOps02.ipynb
+│   │   └── README.md
+│   ├── MLOps03
+│   │   ├── MLOps03.ipynb
+│   │   └── README.md
+│   ├── MLOps04
+│   │   ├── MLOps04.ipynb
+│   │   └── README.md
+│   ├── MLOps05
+│   │   ├── MLOps05.ipynb
+│   │   └── README.md
+│   ├── MLOps06
+│   │   ├── MLOps06.ipynb
+│   │   └── README.md
+│   └── MLOps07
+│       ├── MLOps07.ipynb
+│       └── README.md
+│
+├── MLP
+│   ├── MLP01
+│   │   ├── MLP01.ipynb
+│   │   └── README.md
+│   ├── MLP02
+│   │   ├── MLP02.ipynb
+│   │   └── README.md
+│   ├── MLP03
+│   │   ├── MLP03.ipynb
+│   │   └── README.md
+│   ├── MLP04
+│   │   ├── MLP04.ipynb
+│   │   └── README.md
+│   └── MLP05
+│       ├── MLP05.ipynb
 │       └── README.md
 │
 ├── Main_Quest
@@ -78,47 +109,6 @@ AIFFEL_quest_eng
 │       ├── Quest05.ipynb
 │       └── README.md
 │
-├── MLOps
-│   ├── MLOps01
-│   │   ├── MLOps01.ipynb
-│   │   └── README.md
-│   ├── MLOps02
-│   │   ├── MLOps02.ipynb
-│   │   └── README.md
-│   ├── MLOps03
-│   │   ├── MLOps03.ipynb
-│   │   └── README.md
-│   ├── Quest04
-│   │   ├── Quest04.ipynb
-│   │   └── README.md
-│   ├── MLOps05
-│   │   ├── MLOps05.ipynb
-│   │   └── README.md
-│   ├── MLOps06
-│   │   ├── MLOps06.ipynb
-│   │   └── README.md
-│   └── Quest07
-│       ├── Quest07.ipynb
-│       └── README.md
-│
-├── MLP
-│   ├── MLP01
-│   │   ├── MLP01.ipynb
-│   │   └── README.md
-│   ├── MLP02
-│   │   ├── MLP02.ipynb
-│   │   └── README.md
-│   ├── MLP03
-│   │   ├── MLP03.ipynb
-│   │   └── README.md
-│   ├── MLP04
-│   │   ├── MLP04.ipynb
-│   │   └── README.md
-│   ├── MLP05
-│   │   ├── MLP05.ipynb
-│   │   └── README.md
-│   └── README.md
-│
 ├── Python
 │   ├── Python01
 │   │   ├── Python01.ipynb
@@ -129,8 +119,9 @@ AIFFEL_quest_eng
 │   ├── Python03
 │   │   ├── Python03.ipynb
 │   │   └── README.md
-│   ├── Python04
-│   │   ├── Python04.ipynb
-│   │   └── README.md
-│   └── README.md
+│   └── Python04
+│       ├── Python04.ipynb
+│       └── README.md
+│
+├── .gitignore
 └── README.md
