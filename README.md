@@ -7,7 +7,7 @@ AIFFEL **엔지니어 과정**에서 진행한 퀘스트와 실습 내용을 체
 
 ## 📁 Repository Structure
 
-```text```
+```text
 AIFFEL_quest_cr
 ├── Computer_Vision
 │   ├── CV01
