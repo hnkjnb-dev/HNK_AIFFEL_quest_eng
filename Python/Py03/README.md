@@ -17,6 +17,7 @@
 
 ## 📁 디렉토리 구조
 
+```text
 Python
 ├── Python01
 │   ├── Python01.ipynb
