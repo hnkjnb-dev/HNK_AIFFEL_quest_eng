@@ -17,6 +17,7 @@
 
 ## 📁 디렉토리 구조
 
+```text
 LLM_Application
 ├── LLM01
 │   ├── LLM01.ipynb
