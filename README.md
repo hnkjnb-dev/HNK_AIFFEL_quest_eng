@@ -8,7 +8,7 @@ AIFFEL **엔지니어 과정**에서 진행한 퀘스트와 실습 내용을 체
 ## 📁 Repository Structure
 
 ```text
-AIFFEL_quest_cr
+AIFFEL_quest_eng
 ├── Computer_Vision
 │   ├── CV01
 │   │   ├── CV01.ipynb
@@ -33,8 +33,17 @@ AIFFEL_quest_cr
 │   │   ├── Contents.ipynb
 │   │   └── README.md
 │   └── Final_Code
-│       ├── Final_Code.ipynb
+│       ├── Final_Code
 │       └── README.md
+│
+├── Data_Analysis
+│   ├── DA01
+│   │   ├── DA01.ipynb
+│   │   └── README.md
+│   ├── DA02
+│   │   ├── DA02.ipynb
+│   │   └── README.md
+│   └── README.md
 │
 ├── LLM_Application
 │   ├── LLM01
@@ -53,6 +62,23 @@ AIFFEL_quest_cr
 │       ├── LLM05.ipynb
 │       └── README.md
 │
+├── Main_Quest
+│   ├── Quest01
+│   │   ├── Quest01.ipynb
+│   │   └── README.md
+│   ├── Quest02
+│   │   ├── Quest02.ipynb
+│   │   └── README.md
+│   ├── Quest03
+│   │   ├── Quest03.ipynb
+│   │   └── README.md
+│   ├── Quest04
+│   │   ├── Quest04.ipynb
+│   │   └── README.md
+│   └── Quest05
+│       ├── Quest05.ipynb
+│       └── README.md
+│
 ├── MLOps
 │   ├── MLOps01
 │   │   ├── MLOps01.ipynb
@@ -63,8 +89,8 @@ AIFFEL_quest_cr
 │   ├── MLOps03
 │   │   ├── MLOps03.ipynb
 │   │   └── README.md
-│   ├── MLOps04
-│   │   ├── MLOps04.ipynb
+│   ├── Quest04
+│   │   ├── Quest04.ipynb
 │   │   └── README.md
 │   ├── MLOps05
 │   │   ├── MLOps05.ipynb
@@ -89,26 +115,10 @@ AIFFEL_quest_cr
 │   ├── MLP04
 │   │   ├── MLP04.ipynb
 │   │   └── README.md
-│   └── MLP05
-│       ├── MLP05.ipynb
-│       └── README.md
-│
-├── Main_Quest
-│   ├── Quest01
-│   │   ├── Quest01.ipynb
+│   ├── MLP05
+│   │   ├── MLP05.ipynb
 │   │   └── README.md
-│   ├── Quest02
-│   │   ├── Quest02.ipynb
-│   │   └── README.md
-│   ├── Quest03
-│   │   ├── Quest03.ipynb
-│   │   └── README.md
-│   ├── Quest04
-│   │   ├── Quest04.ipynb
-│   │   └── README.md
-│   └── Quest05
-│       ├── Quest05.ipynb
-│       └── README.md
+│   └── README.md
 │
 ├── Python
 │   ├── Python01
@@ -120,8 +130,9 @@ AIFFEL_quest_cr
 │   ├── Python03
 │   │   ├── Python03.ipynb
 │   │   └── README.md
-│   └── Python04
-│       ├── Python04.ipynb
-│       └── README.md
-│
+│   ├── Python04
+│   │   ├── Python04.ipynb
+│   │   └── README.md
+│   └── README.md
+│ 
 └── README.md
