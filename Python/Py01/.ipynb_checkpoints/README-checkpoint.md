@@ -6,23 +6,28 @@
 
 ---
 
-# Computer Vision
+# Python
 
-이 폴더는 AIFFEL 과정 중 **Computer Vision(CV)** 파트에서 진행한 퀘스트를 정리하기 위한 공간입니다.  
+이 폴더는 AIFFEL 과정 중 **Python** 파트에서 진행한 퀘스트를 정리하기 위한 공간입니다.  
+파이썬 문법과 기본 프로그래밍 개념을 학습하고, 실습을 통해 코드 작성 능력을 기르는 것을 목표로 합니다.
+
 각 퀘스트 폴더에는 실습용 Jupyter Notebook(.ipynb)과 간단한 설명을 담은 README.md가 포함됩니다.
 
 ---
 
 ## 📁 디렉토리 구조
 
-```text
-Computer_Vision
-├── CV01
-│   ├── CV01.ipynb
+Python
+├── Python01
+│   ├── Python01.ipynb
 │   └── README.md
-├── CV02
-│   ├── CV02.ipynb
+├── Python02
+│   ├── Python02.ipynb
 │   └── README.md
-└── CV03
-    ├── CV03.ipynb
+├── Python03
+│   ├── Python03.ipynb
+│   └── README.md
+└── Python04
+    ├── Python04.ipynb
     └── README.md
+
