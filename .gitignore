@@ -3,3 +3,16 @@
 *.zip
 *.zip
 Computer_Vision/CV03/
+# datasets / archives
+*.zip
+*.tsv
+
+datasets / archives
+cat >> .gitignore <<'EOF'
+# datasets / archives
+*.zip
+*.tsv
+catboost_info/
+# (선택) 큰 데이터 파일은 프로젝트에서 제외
+MLP/MLP03/ko.tsv
+Computer_Vision/CV03/2team/
