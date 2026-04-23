@@ -1,3 +1,145 @@
+# 🎬 Netflix Recommendation System with Vertex AI Pipeline
+
+## 프로젝트 개요
+
+본 프로젝트는 Netflix Prize Dataset을 활용하여
+사용자의 시청 이력을 기반으로 영화 평점을 예측하는 추천 시스템을 구축하고,
+Google Cloud Vertex AI를 통해 **모델 학습부터 배포까지의 MLOps 파이프라인을 구현**하는 것을 목표로 합니다.
+
+---
+
+## 주요 기능
+
+* 대규모 시계열 데이터 전처리 (Netflix Prize Dataset)
+* Transformer 기반 추천 모델 구현
+* 사용자 시퀀스 기반 평점 예측
+* GCP (BigQuery, GCS, Vertex AI) 활용
+* Kubeflow Pipeline 기반 자동화 파이프라인 구축
+* Vertex AI Endpoint를 통한 모델 서빙 및 배포
+
+---
+
+## 전체 아키텍처
+
+```
+Kaggle Dataset
+    ↓
+Data Preprocessing (Colab)
+    ↓
+Google Cloud Storage (GCS)
+    ↓
+BigQuery 적재
+    ↓
+Vertex AI Pipeline
+    ├── 데이터 추출
+    ├── 모델 학습
+    └── 모델 배포
+    ↓
+Vertex AI Endpoint (Serving)
+```
+
+---
+
+## 모델 설명
+
+* **모델 구조**: Transformer 기반 Recommendation Network
+* **입력**: 사용자별 영화 시청 시퀀스
+* **출력**: 마지막 영화에 대한 예상 평점
+
+### 핵심 아이디어
+
+* 사용자의 과거 시청 패턴을 시퀀스로 구성
+* Transformer의 Self-Attention을 활용하여
+  **사용자 선호 패턴 학습**
+
+---
+
+## 프로젝트 구조
+
+```
+.
+├── pipeline_job.yaml        # Vertex AI Pipeline 정의
+├── model.py                 # 모델 정의
+├── handler.py               # 서빙 핸들러
+├── model.pth                # 학습된 모델 가중치
+├── *.pdf                    # 실험 및 구현 과정 (Colab 결과)
+└── README.md
+```
+
+---
+
+## 실행 방법
+
+### 1. 환경 설정
+
+```bash
+pip install google-cloud-aiplatform kfp google-cloud-storage
+```
+
+### 2. GCP 설정
+
+* Service Account 생성
+* `credentials.json` 다운로드 후 설정
+
+```bash
+gcloud auth login --cred-file=credentials.json
+```
+
+---
+
+### 3. Pipeline 실행
+
+```python
+from google.cloud import aiplatform
+
+job = aiplatform.PipelineJob(
+    display_name="netflix_recommender_pipeline",
+    template_path="pipeline_job.yaml",
+    pipeline_root="gs://YOUR_BUCKET/pipeline_root",
+)
+
+job.submit()
+```
+
+---
+
+## 결과
+
+* 학습 Loss 감소 확인 (Epoch별 안정적 수렴)
+* 평균 정확도 약 **0.38 수준**
+* Vertex AI Endpoint를 통한 실시간 예측 가능
+
+---
+
+## 배운 점
+
+* 대규모 데이터 처리 시 샘플링 전략의 중요성
+* Transformer가 추천 시스템에도 효과적으로 활용 가능함을 확인
+* Vertex AI + Kubeflow Pipeline을 통한
+  **End-to-End MLOps 흐름 경험**
+
+---
+
+## 보안 관련
+
+* API Key, Service Account Key 등 민감 정보는 포함하지 않음
+* 환경 변수 및 외부 파일(`credentials.json`)로 분리 관리
+
+---
+
+## 데이터 출처
+
+* Netflix Prize Dataset
+  https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data
+
+---
+
+## 한 줄 정리
+
+> 단순 모델 구현이 아닌,
+> **데이터 → 학습 → 배포까지 이어지는 실제 MLOps 파이프라인을 구축한 프로젝트**
+
+
 # AIFFEL Campus Online Code Peer Review Templete
 - 코더 : 고길동
 - 리뷰어 : 강백호
